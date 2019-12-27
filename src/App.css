@@ -13,59 +13,74 @@ body {
   color: #fff;
   height: 3rem;
   padding-top: .5rem;
+  margin-bottom: 2rem;
 }
 
-/* Member Signup */
+/* FORM */
 
-.members {
+.form {
   background-color: #333333;
   color: #fff;
-  width: 20rem;
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 1rem;
-  box-shadow: 0 1rem 1rem .25rem rgba(0, 0, 0, 0.5);
+  width: 25rem;
+  box-shadow: 0 .75rem 1rem .25rem rgba(0, 0, 0, 0.5);
 }
-.members form {
-  display: flex;
-  flex-direction: column;
+.form .input-container {
+  width: 80%;
 }
-.members lable {
-  margin: 1rem;
-  text-align: left;
-}
-.members input {
-  width: 85%;
-  margin: 0 auto;
-  padding: .5rem;
-  border: none;
-  outline: none;
-  font-size: 1rem;
-}
-.members button {
-  margin: 2rem 1rem 1rem 1rem;
+.form button {
+  width: 50%;
   height: 2rem;
-  border: none;
-  background-color: rgb(195, 246, 255);
-  box-shadow: 0 1rem 1rem .25rem rgba(0, 0, 0, 0.5);
   font-size: 1rem;
+  border: none;
+  background-color: rgb(218, 241, 255);
 }
-button:hover {
-  cursor: pointer;
-  box-shadow: 0 .25rem .25rem .25rem rgba(0, 0, 0, 0.753);
-  transition: .25s ease;
+.input-container label {
+  display: flex;
+  width: 100%;
+}
+.input-container label input {
+  width: 15rem;
+  margin-bottom: 1rem;
+  margin-left: 11%;
 }
 
-/* Member List */
+/* NEW MEMBERS */
 
-.member-list {
+.new-members {
   background-color: #333333;
   color: #fff;
-  width: 20rem;
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 1rem;
-  box-shadow: 0 1rem 1rem .25rem rgba(0, 0, 0, 0.5);
+  width: 25rem;
+  box-shadow: 0 .75rem 1rem .25rem rgba(0, 0, 0, 0.5); 
   display: flex;
   flex-direction: column;
+}
+.new-members label {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem;
+}
+.new-members button {
+  width: 50%;
+  height: 2rem;
+  font-size: 1rem;
+  border: none;
+  background-color: rgb(218, 241, 255);
+  margin: 0 auto; 
+}
+.new-members h3 {
+  margin: 0 auto;
+  color: rgba(218, 241, 255, 0.74);
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid grey;
+  width: 50%;
+}
+.new-members p {
+  margin-bottom: 1rem;
 }
